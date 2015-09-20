@@ -25,3 +25,16 @@ For the y Dataset we use merge to get descriptive names for the activities.
 * The Stat column contains Non alpha numeric characters.. use mutate with gsub to remove them.
 
 Finally the resultant tidy data set is written out to the file
+
+
+# Codebook
+
+The dataset is derived from the Sansung dataset.
+The filtered dataset contains the following fields
+
+* Activity : This is Walking, Laying, Sitting etc.
+* Subject : This is the code assigned to each of the person who took part in the experiment
+* Type : This is the measurement type
+* Stat : This is the Stat on the measurement, could be either mean or sd
+* Axis : the Axis on which the measurement was taken. Note some of the measurements types are independent of axis These are marked as NA
+* Value : the value of the measurement.
